@@ -6,7 +6,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 //Views
 import Home from "./Pages/Home/Home";
 import WeatherInformation from "./Pages/WeatherInformation/WeatherInformation";
-import Error from "./Components/Custom/Error/Error";
+
 //Layout 
 //import MainLayout from "./Components/Layouts/MainLayout";
 function App() {
@@ -24,10 +24,7 @@ function App() {
           <WeatherInformation />
         </Route>
 
-        <Route path="*">
-        <Error />
-        </Route>
-        
+      
       </Switch>
     </BrowserRouter>
   );
