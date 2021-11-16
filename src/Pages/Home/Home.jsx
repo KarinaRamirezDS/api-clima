@@ -27,8 +27,8 @@ const Home = () => {
         
         setLoader(true);
        // alert("Funciona");       
-       const key= "5dced5ee8e6a15f3c026ae5ed9a40f8a"
-        const API = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}&units=metric`;
+       
+        const API = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_API_KEY}`;
         
         const response = await fetch(API);
         const result = await response.json();
