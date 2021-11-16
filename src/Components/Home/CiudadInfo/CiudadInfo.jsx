@@ -30,11 +30,11 @@ const CiudadInfo = (props) => {
                 <h2 className="text-2xl text-white">Humidity: {humedad}</h2>
                 <h2 className="text-2xl text-white">Cloud: {cloud}</h2>
             
-      
+                <button className="more"  onClick={handleHistory}>Regresar</button>
              
             </div>
            
-            <button className="more"  onClick={handleHistory}>Regresar</button>
+            
             </div>
         </div>
 
