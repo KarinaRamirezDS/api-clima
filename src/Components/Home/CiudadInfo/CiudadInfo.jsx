@@ -21,7 +21,7 @@ const CiudadInfo = (props) => {
         <div className="contenido">
             <div className="card">
             <div className="contenido">
-                <h2 className="text-2xl text-white">{name}</h2> 
+                <h2 className="text-3xl text-white font-medium">{name}</h2> 
                 <img  src={`http://openweathermap.org/img/wn/${imagen}@2x.png`}/>
                 <h2 className="text-2xl text-white" p-2>{Math.round(temp)}<sup>&deg;C</sup></h2>
                 <h2 className="text-2xl text-white" p-2> Minimum temperature:  {Math.round(tempMin)}<sup>&deg;C</sup></h2>
@@ -30,7 +30,7 @@ const CiudadInfo = (props) => {
                 <h2 className="text-2xl text-white">Humidity: {humedad}</h2>
                 <h2 className="text-2xl text-white">Cloud: {cloud}</h2>
             
-                <button className="more"  onClick={handleHistory}>Regresar</button>
+                <button className="more p-10 m-10"  onClick={handleHistory}>Regresar  </button>
              
             </div>
            

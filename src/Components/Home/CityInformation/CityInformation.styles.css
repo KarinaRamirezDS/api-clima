@@ -29,6 +29,7 @@
    cursor: pointer;
    transition: all 400ms ease;
    background-color:rgba(0, 0, 0, 0.4);
+   align-items: center;
 
  }
  .card:hover{
@@ -41,13 +42,17 @@
    width:80px;
    height:50px;
    text-decoration: none;
-   display: block;
-   padding: 10px;
+
+   padding: 15px;
    margin: auto;
    color: #2fb4cc;
    border: 1px solid #2fb4cc;
    border-radius: 4px;
    transition: all 400ms ease;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
  }
  .more:hover{
    background-color:#2fb4cc;
