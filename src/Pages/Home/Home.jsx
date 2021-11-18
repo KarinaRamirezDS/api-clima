@@ -31,7 +31,7 @@ const Home = () => {
     try{
        // alert("Funciona");       
        
-        const API = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_API_KEY}`;
+        const API = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_API_KEY}&units=metric`;
         
         const response = await fetch(API);
         const result = await response.json();
